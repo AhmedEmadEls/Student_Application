@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="lift_btn1">24dp</dimen>
+    <dimen name="rit_btn1">35dp</dimen>
+    <dimen name="rit_btn2">24dp</dimen>
+</resources>

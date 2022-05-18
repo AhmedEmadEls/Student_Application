@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student_Phone_Application</string>
+    <string name="start">ابدئ الان</string>
+    <string name="start_De">
+        تطبيق ذكي للخدمات الطلابيه تمكن الان من الاستمعتاع بجميع الخدمات التي قد تحتاجها في يومك الدراسي
+    </string>
+    <string name="next">التالي</string>
+    <string name="next1_De">
+        اعرف معلوماتك الدراسيه و الجداول الدراسيه و السكاشن و الخدمات الاداريه الاخري
+    </string>
+    <string name="next2_De">
+        تواصل مع زملائك في نفس المجموعه و شارك الملفات التي تخص المواد الدراسيه
+    </string>
+    <string name="usarname">اسم المستخدم</string>
+    <string name="password">كلمه السر</string>
+    <string name="sinup">دخول</string>
+    <string name="schedules">الجدول الدراسي</string>
+    <string name="Section_table">جدول السكاشن</string>
+    <string name="Student_chat">الشات الطلابي</string>
+    <string name="common_questions">الاسئله الشائعه</string>
+    <string name="student_services">الخدمات الطلابيه</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="SINOUT">تسجيل الخروج</string>
+    <string name="Transfer_to_another_group">التحويل الي مجموعه اخري</string>
+    <string name="Exam_result">نتيجه الاختبارات</string>
+    <string name="Academy_website">موقع الاكاديميه</string>
+    <string name="Write_the_message">اكتب الرساله .....</string>
+    <string name="notavalabol">غير متاح في الوقت الحالي.....قريبا</string>
+</resources>

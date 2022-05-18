@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Student_Application</string>
+    <string name="start">Start</string>
+    <string name="start_De">
+        A smart application for student services Now you can listen All services What you may need in your school day
+    </string>
+    <string name="next">Next</string>
+    <string name="next1_De">
+        Know your academic information, study schedules, sections and other dministrative services
+    </string>
+    <string name="next2_De">
+        Communicate with your colleagues in the same group and share files related to study materials
+    </string>
+    <string name="usarname">USARNAME:</string>
+    <string name="password">PassWord:</string>
+    <string name="sinup">SINUP</string>
+    <string name="schedules">schedules</string>
+    <string name="Section_table">Section table</string>
+    <string name="Student_chat">Student chat</string>
+    <string name="common_questions">Common questions</string>
+    <string name="student_services">Student services</string>
+    <string name="notifications">Notifications</string>
+    <string name="SINOUT">Sin out</string>
+    <string name="Transfer_to_another_group">Transfer to another group</string>
+    <string name="Exam_result">Exam result</string>
+    <string name="Academy_website">Academy website</string>
+    <string name="Write_the_message">Write the message .....</string>
+    <string name="notavalabol">Not available at the present time ..... soon</string>
+</resources>

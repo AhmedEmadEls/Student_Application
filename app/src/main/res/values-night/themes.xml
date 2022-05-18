@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Student_Application" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/buttoncol</item>
+        <item name="colorPrimaryVariant">@color/buttoncol</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="TextView" parent="android:Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">340dp</item>
+        <item name="android:layout_height">208dp</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Button">
+        <item name="android:layout_width">268dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:background">@drawable/custom_btn</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="edit" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/custom_edi</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="text" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="textdetals" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="textmin" parent="android:Widget.TextView">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

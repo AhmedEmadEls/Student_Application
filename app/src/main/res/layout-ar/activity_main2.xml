@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main_Activity"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/custom_hed"
+        >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_weight="1"
+            style="@style/textdetals"
+            android:layout_marginTop="28dp"
+            />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_weight="1"
+            style="@style/textdetals"
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_weight="1"
+            style="@style/textdetals"
+            android:layout_marginBottom="28dp"
+            />
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="187dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="36dp"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:onClick="button"
+                android:layout_width="167dp"
+                android:layout_height="118dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btnmen"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calender_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="164dp"
+                android:layout_height="118dp"
+                android:background="@drawable/custom_btnmen"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calender_2"
+                android:layout_marginRight="35dp"
+                android:layout_weight="1"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="38dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schedules"
+                android:gravity="center"
+                android:layout_marginLeft="35dp"
+                style="@style/textmin"
+
+                />
+
+            <TextView
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Section_table"
+                style="@style/textmin"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="187dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="23dp"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="167dp"
+                android:layout_height="118dp"
+                android:background="@drawable/custom_btnmen"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chat"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="167dp"
+                android:layout_height="118dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/custom_btnmen"
+                android:src="@drawable/chatte"
+                android:layout_marginRight="35dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="38dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Student_chat"
+                android:gravity="center"
+                android:layout_marginLeft="35dp"
+                style="@style/textmin"
+
+                />
+
+            <TextView
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/common_questions"
+                style="@style/textmin"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="187dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="23dp"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="167dp"
+                android:layout_height="118dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/custom_btnmen"
+                android:src="@drawable/service_support_icon"
+                android:layout_weight="1"
+                android:onClick="ser"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="167dp"
+                android:layout_height="118dp"
+                android:layout_marginRight="35dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btnmen"
+                android:scaleType="fitCenter"
+                android:src="@drawable/notification_ring_alarm_bell_alert_icon" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="38dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_services"
+                android:gravity="center"
+                android:layout_marginLeft="35dp"
+                style="@style/textmin"
+
+                />
+
+            <TextView
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/notifications"
+                style="@style/textmin"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#5C000000"
+                android:background="@drawable/custom_btnmen_exit"
+                android:text="@string/SINOUT"
+                android:textSize="24dp"
+                android:onClick="sinout"
+                />
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+</LinearLayout>

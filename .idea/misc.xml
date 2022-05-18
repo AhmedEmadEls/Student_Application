@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btn.xml" value="0.2505" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btnMe.xml" value="0.1305" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btnmen.xml" value="0.127" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btnmen_exit.xml" value="0.1985" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btnser.xml" value="0.2255" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_edi.xml" value="0.205" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_hed.xml" value="0.2555" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/ic_launcher_background.xml" value="0.233" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-ar/activity_main2.xml" value="0.264" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-ar/activity_not.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-ar/activity_servise.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-large/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-large/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-large/activity_sin_in.xml" value="0.264" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_not.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_secand.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_servise.xml" value="0.176" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_sin_in.xml" value="0.176" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/app_toolbar.xml" value="0.2" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/fragment_first_.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/fragment_mainu_.xml" value="0.1" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/fragment_min_.xml" value="0.152" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/fragment_sac_.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/not_naw.xml" value="0.2056159420289855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
