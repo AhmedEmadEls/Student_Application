@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Student_Application" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="Theme.Student_Application" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/buttoncol</item>
         <item name="colorPrimaryVariant">@color/buttoncol</item>
@@ -74,4 +74,11 @@
         <item name="android:layout_marginTop">27dp</item>
     </style>
 
+<!--Test animation themes-->
+    <style name="fullscreen" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
 </resources>

@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Student_Application">
         <activity
             android:name=".Test_Activity"
+
             android:exported="true" >
 
             <intent-filter>
