@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Student_Application">
         <activity
+            android:name=".Test_Activity"
+            android:exported="false" />
+        <activity
             android:name=".NotActivity"
             android:exported="false" />
         <activity
             android:name=".Servise_Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Main_Activity"
             android:exported="false" />
