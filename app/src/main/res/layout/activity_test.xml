@@ -44,12 +44,13 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="first anser"
-        android:visibility="gone"
         android:layout_margin="30dp"
-        android:textSize="30dp"
+        android:text="first anser"
         android:textColor="@color/black"
+        android:textSize="30dp"
         android:textStyle="bold"
+        android:visibility="gone"
+        android:background="@drawable/custom_btncommon"
         />
 
     <LinearLayout
