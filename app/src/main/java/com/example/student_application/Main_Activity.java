@@ -17,7 +17,7 @@ public class Main_Activity extends AppCompatActivity {
 
     public void button(View view) {
         TextView textView = findViewById(R.id.textView8);
-        textView.setText("hi");
+        textView.setText("Ahmed Emad Elshabrawi");
 
     }
 
