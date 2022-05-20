@@ -136,6 +136,7 @@
                 android:src="@drawable/chatte"
                 android:layout_marginLeft="35dp"
                 android:layout_weight="1"
+                android:onClick="qanda"
                 />
         </TableRow>
         <TableRow

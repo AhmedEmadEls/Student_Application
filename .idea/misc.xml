@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2645" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btn.xml" value="0.2505" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btnMe.xml" value="0.1305" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btnmen.xml" value="0.127" />
@@ -18,11 +19,12 @@
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-large/activity_main2.xml" value="0.1" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-large/activity_sin_in.xml" value="0.264" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_main2.xml" value="0.176" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_not.xml" value="0.2056159420289855" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_secand.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_servise.xml" value="0.176" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_sin_in.xml" value="0.176" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_test.xml" value="0.259375" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/app_toolbar.xml" value="0.2" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/fragment_first_.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/fragment_mainu_.xml" value="0.1" />

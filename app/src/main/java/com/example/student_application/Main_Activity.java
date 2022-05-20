@@ -30,4 +30,9 @@ public class Main_Activity extends AppCompatActivity {
         Intent intent = new Intent(this , Servise_Activity.class);
         startActivity(intent);
     }
+
+    public void qanda(View view) {
+        Intent intent = new Intent(this,Test_Activity.class);
+        startActivity(intent);
+    }
 }
