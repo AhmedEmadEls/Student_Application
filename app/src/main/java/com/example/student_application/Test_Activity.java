@@ -26,6 +26,7 @@ public class Test_Activity extends AppCompatActivity {
 
 
 
+
         if (textView.getVisibility() == View.GONE){
             textView.setVisibility(View.VISIBLE);
             //imageView.setImageResource(R.drawable.arrows_up);
