@@ -18,7 +18,7 @@
         >
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -28,7 +28,7 @@
             />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -37,7 +37,7 @@
             />
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"

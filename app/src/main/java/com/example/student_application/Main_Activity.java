@@ -13,11 +13,16 @@ public class Main_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        TextView textView1 = findViewById(R.id.textView1);
+        textView1.setText("Ahmed Emad Elshabrawi");
+        TextView textView2 = findViewById(R.id.textView2);
+        textView2.setText("رابعة نظم ");
+        TextView textView3 = findViewById(R.id.textView3);
+        textView3.setText("1801022");
+
     }
 
     public void button(View view) {
-        TextView textView = findViewById(R.id.textView8);
-        textView.setText("Ahmed Emad Elshabrawi");
 
     }
 
