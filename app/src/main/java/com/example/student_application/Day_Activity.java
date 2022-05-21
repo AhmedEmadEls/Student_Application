@@ -13,6 +13,7 @@ public class Day_Activity extends AppCompatActivity {
 
 
         // hi hazim
+//hi Ahmed
 
 
 
