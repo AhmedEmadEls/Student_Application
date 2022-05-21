@@ -22,7 +22,7 @@
             android:src="@drawable/back3"
             android:layout_gravity="center"
             android:layout_marginLeft="11dp"
-            android:onClick="backmi"
+
 
             />
 
@@ -48,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textAlignment="center"
+        android:entries="@array/days"
         />
 
 </LinearLayout>
