@@ -27,4 +27,17 @@
     <string name="Academy_website">موقع الاكاديميه</string>
     <string name="Write_the_message">اكتب الرساله .....</string>
     <string name="notavalabol">غير متاح في الوقت الحالي.....قريبا</string>
+
+    <string name="day">إختيار اليوم</string>
+
+    <string-array name="days">
+        <item>السبت</item>
+        <item>الأحد</item>
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربع</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+    </string-array>
+
 </resources>

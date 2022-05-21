@@ -26,4 +26,16 @@
     <string name="Academy_website">Academy website</string>
     <string name="Write_the_message">Write the message .....</string>
     <string name="notavalabol">Not available at the present time ..... soon</string>
+    
+    <string name="day">Choose a day</string>
+
+    <string-array name="days">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
 </resources>

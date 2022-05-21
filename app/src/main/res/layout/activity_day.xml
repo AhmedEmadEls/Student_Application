@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Day_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal"
+        android:background="@color/hider"
+        >
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.01"
+            android:background="@color/null2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="11dp"
+            android:onClick="backmi"
+
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="294px"
+            android:layout_height="wrap_content"
+            android:text="@string/day"
+            android:gravity="center"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginVertical="15dp"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
