@@ -47,6 +47,7 @@
     <!--إتب الأسإلة والأجوبة-->
 
     <string name="a1">Is it possible to transfer to another group?</string>
+    <string name="b1"> Yes, it is possible to transfer to another group, but with conditions  </string>
 
 
 </resources>
