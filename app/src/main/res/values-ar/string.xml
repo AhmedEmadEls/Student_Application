@@ -40,4 +40,9 @@
         <item>الجمعة</item>
     </string-array>
 
+
+    <!--إتب الأسإلة والأجوبة-->
+
+    <string name="a1">هل يمكن التحويل إلى مجموعة أخري؟ </string>
+
 </resources>

@@ -38,4 +38,15 @@
         <item>Thursday</item>
         <item>Friday</item>
     </string-array>
+
+
+
+
+
+
+    <!--إتب الأسإلة والأجوبة-->
+
+    <string name="a1">Is it possible to transfer to another group?</string>
+
+
 </resources>
