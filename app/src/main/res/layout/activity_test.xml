@@ -15,10 +15,7 @@
     android:orientation="vertical"
     >
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="15dp"
+        style="@style/layout"
         >
 
         <Button
@@ -42,15 +39,8 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
         android:text="first anser"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:visibility="gone"
-        android:background="@drawable/custom_btncommon"
+        style="@style/qatext"
         />
 
     <LinearLayout
@@ -82,11 +72,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
-        android:layout_margin="15dp"
+        style="@style/qatext"
 
         />
 
@@ -94,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_margin="15dp"
+        android:layout_margin="2dp"
         >
 
         <Button
@@ -118,11 +105,9 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
-        android:layout_margin="15dp"
+        style="@style/qatext"
+
 
         />
 
@@ -154,11 +139,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/qatext"
         android:text="TextView"
-        android:visibility="gone"
-        android:layout_margin="30dp"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -188,11 +170,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/qatext"
         android:text="TextView"
-        android:visibility="gone"
-        android:layout_margin="30dp"
         />
 
     <LinearLayout
@@ -226,7 +205,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
@@ -261,7 +239,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
@@ -296,7 +273,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
@@ -331,7 +307,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
@@ -366,7 +341,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
@@ -401,7 +375,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
@@ -436,7 +409,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
@@ -471,7 +443,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
@@ -506,7 +477,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone"
         android:layout_margin="30dp"
         />
 
