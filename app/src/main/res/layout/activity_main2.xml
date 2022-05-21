@@ -57,7 +57,7 @@
                 android:layout_marginHorizontal="25dp"
                 android:layout_marginTop="36dp">
 
-                <pl.droidsonroids.gif.GifImageButton
+                <ImageButton
                     android:id="@+id/imageButton1"
                     android:layout_width="167dp"
                     android:layout_height="118dp"
@@ -67,15 +67,15 @@
                     android:scaleType="centerCrop"
                     android:src="@drawable/animation_1_4" />
 
-                <pl.droidsonroids.gif.GifImageButton
+                <ImageButton
                     android:id="@+id/imageButton2"
                     android:layout_width="164dp"
                     android:layout_height="118dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/animation2" />
+                    android:src="@drawable/calendar_icon" />
 
             </TableRow>
 
@@ -91,7 +91,7 @@
                     style="@style/textmin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="35dp"
+                    android:layout_marginEnd="35dp"
                     android:gravity="center"
                     android:text="@string/schedules"
 
@@ -117,19 +117,19 @@
                     android:layout_height="118dp"
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/animation_3_1" />
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/bubble_chat_chat_icon" />
 
                 <pl.droidsonroids.gif.GifImageButton
                     android:id="@+id/imageButton4"
                     android:layout_width="167dp"
                     android:layout_height="118dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
                     android:onClick="qanda"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/animation_4" />
+                    android:src="@drawable/bubbles_healthcare_medical_medicine_questions_icon" />
             </TableRow>
 
             <TableRow
@@ -144,7 +144,7 @@
                     style="@style/textmin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="33dp"
+                    android:layout_marginEnd="33dp"
                     android:gravity="center"
                     android:text="@string/Student_chat"
 
@@ -172,17 +172,19 @@
                     android:background="@drawable/custom_btnmen"
                     android:onClick="ser"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/animation_5" />
+                    android:src="@drawable/service_support_icon"
+                    />
 
                 <pl.droidsonroids.gif.GifImageButton
                     android:id="@+id/imageButton6"
                     android:layout_width="167dp"
                     android:layout_height="118dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
                     android:scaleType="centerInside"
-                    android:src="@drawable/animation_notifi" />
+                    android:src="@drawable/notification_icon"
+                    />
             </TableRow>
 
             <TableRow
@@ -190,17 +192,15 @@
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="38dp"
                 android:layout_marginTop="5dp"
-
                 >
 
                 <TextView
                     style="@style/textmin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="35dp"
+                    android:layout_marginEnd="35dp"
                     android:gravity="center"
                     android:text="@string/student_services"
-
                     />
 
                 <TextView
@@ -224,7 +224,7 @@
                     android:onClick="sinout"
                     android:text="@string/SINOUT"
                     android:textColor="#5C000000"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </TableRow>
         </TableLayout>
