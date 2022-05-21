@@ -57,15 +57,15 @@
                 android:layout_marginHorizontal="25dp"
                 android:layout_marginTop="36dp">
 
-                <ImageButton
+                <pl.droidsonroids.gif.GifImageButton
                     android:id="@+id/imageButton1"
                     android:layout_width="167dp"
                     android:layout_height="118dp"
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
                     android:onClick="button"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/calender_1" />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/animation_1_4" />
 
                 <pl.droidsonroids.gif.GifImageButton
                     android:id="@+id/imageButton2"
@@ -74,8 +74,8 @@
                     android:layout_marginLeft="35dp"
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
-                    android:scaleType="center"
-                    android:src="@drawable/a" />
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/animation2" />
 
             </TableRow>
 

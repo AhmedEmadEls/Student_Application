@@ -70,15 +70,15 @@
                 android:scaleType="fitCenter"
                 android:src="@drawable/calender_1" />
 
-            <ImageButton
+            <pl.droidsonroids.gif.GifImageButton
                 android:id="@+id/imageButton2"
                 android:layout_width="164dp"
                 android:layout_height="118dp"
-                android:background="@drawable/custom_btnmen"
-                android:scaleType="fitCenter"
-                android:src="@drawable/calender_2"
                 android:layout_marginRight="35dp"
                 android:layout_weight="1"
+                android:background="@drawable/custom_btnmen"
+                android:scaleType="fitCenter"
+                android:src="@drawable/animation2"
                 />
 
         </TableRow>
@@ -184,15 +184,15 @@
                 android:onClick="ser"
                 />
 
-            <ImageButton
+            <pl.droidsonroids.gif.GifImageButton
                 android:id="@+id/imageButton6"
                 android:layout_width="167dp"
                 android:layout_height="118dp"
                 android:layout_marginRight="35dp"
                 android:layout_weight="1"
                 android:background="@drawable/custom_btnmen"
-                android:scaleType="fitCenter"
-                android:src="@drawable/notification_ring_alarm_bell_alert_icon" />
+                android:scaleType="centerInside"
+                android:src="@drawable/animation_notifi" />
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
