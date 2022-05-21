@@ -174,16 +174,15 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/service_support_icon" />
 
-                <ImageButton
+                <pl.droidsonroids.gif.GifImageButton
                     android:id="@+id/imageButton6"
                     android:layout_width="167dp"
                     android:layout_height="118dp"
                     android:layout_marginLeft="35dp"
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
-                    android:scaleType="fitCenter"
-
-                    android:src="@drawable/notification_ring_alarm_bell_alert_icon" />
+                    android:scaleType="centerInside"
+                    android:src="@drawable/animation_notifi" />
             </TableRow>
 
             <TableRow

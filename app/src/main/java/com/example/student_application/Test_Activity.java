@@ -112,15 +112,21 @@ public class Test_Activity extends AppCompatActivity {
         if (textView.getVisibility() == View.GONE){
             textView.setVisibility(View.VISIBLE);
             imageView.setImageResource(R.drawable.arrows_up);
+            /*
             //lottieAnimationView.setSpeed(-1);
            // lottieAnimationView.playAnimation();
             // sar = false;
-        }else {
+
+             */
+            }else {
             textView.setVisibility(View.GONE);
             imageView.setImageResource(R.drawable.arrows_down);
+            /*
             //lottieAnimationView.setSpeed(1);
             // lottieAnimationView.playAnimation();
             // sar = true;
+
+             */
         }
     }
 
