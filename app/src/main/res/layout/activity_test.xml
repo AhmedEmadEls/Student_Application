@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:orientation="horizontal"
-        android:background="#9176ED"
+        android:background="@color/hider"
         >
 
         <ImageButton
@@ -25,18 +25,18 @@
             android:scaleType="fitCenter"
             android:src="@drawable/back3"
             android:layout_gravity="center"
-            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
 
             />
 
         <TextView
-            android:layout_width="294px"
+            android:layout_width="294dp"
             android:layout_height="wrap_content"
             android:text="@string/common_questions"
             android:gravity="center"
             android:layout_gravity="center"
-            android:layout_marginRight="15dp"
-            android:textSize="25dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="25sp"
             android:layout_weight="5"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -69,12 +69,12 @@
 
             />
 
-        <com.airbnb.lottie.LottieAnimationView
+        <ImageView
             android:id="@+id/imageView1"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            app:lottie_rawRes="@raw/test_animation3"
+            android:src="@drawable/arrows_down"
             android:scaleType="fitCenter"
             android:onClick="m1"
 

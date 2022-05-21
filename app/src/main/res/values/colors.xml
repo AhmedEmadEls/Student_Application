@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="buttoncol">#2F2E41</color>
     <color name="null2">#00FFFFFF</color>
+
+    <color name="hider">#9176ED</color>
 </resources>
