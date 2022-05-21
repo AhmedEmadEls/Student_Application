@@ -59,7 +59,7 @@
     </style>
 
     <style name="textmin" parent="android:Widget.TextView">
-        <item name="android:textSize">16dp</item>
+        <item name="android:textSize">15dp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:fontFamily">@font/inter</item>
 
