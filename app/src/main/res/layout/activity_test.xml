@@ -16,6 +16,8 @@
     >
     <LinearLayout
         style="@style/layout"
+        android:onClick="m1"
+
         >
 
         <Button
@@ -25,6 +27,7 @@
             android:layout_weight="9"
             android:text="Button"
             android:onClick="m1"
+
             />
 
         <com.airbnb.lottie.LottieAnimationView
@@ -34,6 +37,8 @@
             android:layout_weight="1"
             app:lottie_rawRes="@raw/test_animation3"
             android:scaleType="fitCenter"
+            android:onClick="m1"
+
             />
     </LinearLayout>
 
@@ -100,6 +105,7 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/arrows_down"
             android:scaleType="fitCenter"
+            android:layout_gravity="center"
             />
     </LinearLayout>
 
@@ -113,15 +119,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:orientation="horizontal"
         android:layout_margin="15dp"
+        android:background="@color/purple_500"
         >
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_weight="9"
             android:text="Button"
             android:onClick="m4"
@@ -132,8 +140,10 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_weight="1"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/arrows_down"
             android:scaleType="fitCenter"
+            android:background="@color/null2"
             />
     </LinearLayout>
 
