@@ -21,18 +21,18 @@ public class Test_Activity extends AppCompatActivity {
     public void m1(View view) {
         TextView textView = findViewById(R.id.textView1);
         ImageView imageView = findViewById(R.id.imageView1);
-        LottieAnimationView lottieAnimationView = findViewById(R.id.imageView1);
+        //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView1);
         if (textView.getVisibility() == View.GONE){
             textView.setVisibility(View.VISIBLE);
-            //imageView.setImageResource(R.drawable.arrows_up);
-            lottieAnimationView.setSpeed(-1);
-            lottieAnimationView.playAnimation();
-           // sar = false;
+            imageView.setImageResource(R.drawable.arrows_up);
+            //lottieAnimationView.setSpeed(-1);
+            //lottieAnimationView.playAnimation();
+            // sar = false;
         }else {
             textView.setVisibility(View.GONE);
-            //imageView.setImageResource(R.drawable.arrows_down);
-            lottieAnimationView.setSpeed(1);
-            lottieAnimationView.playAnimation();
+            imageView.setImageResource(R.drawable.arrows_down);
+            //lottieAnimationView.setSpeed(1);
+            //lottieAnimationView.playAnimation();
            // sar = true;
         }
     }
@@ -107,19 +107,19 @@ public class Test_Activity extends AppCompatActivity {
 
     public void m5(View view) {
         TextView textView = findViewById(R.id.textView5);
-        //ImageView imageView = findViewById(R.id.imageView5);
-        LottieAnimationView lottieAnimationView = findViewById(R.id.imageView5);
+        ImageView imageView = findViewById(R.id.imageView5);
+        //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView5);
         if (textView.getVisibility() == View.GONE){
             textView.setVisibility(View.VISIBLE);
-            //imageView.setImageResource(R.drawable.arrows_up);
-            lottieAnimationView.setSpeed(-1);
-            lottieAnimationView.playAnimation();
+            imageView.setImageResource(R.drawable.arrows_up);
+            //lottieAnimationView.setSpeed(-1);
+           // lottieAnimationView.playAnimation();
             // sar = false;
         }else {
             textView.setVisibility(View.GONE);
-            //imageView.setImageResource(R.drawable.arrows_down);
-            lottieAnimationView.setSpeed(1);
-            lottieAnimationView.playAnimation();
+            imageView.setImageResource(R.drawable.arrows_down);
+            //lottieAnimationView.setSpeed(1);
+            // lottieAnimationView.playAnimation();
             // sar = true;
         }
     }
@@ -127,23 +127,28 @@ public class Test_Activity extends AppCompatActivity {
 
     public void m6(View view) {
         TextView textView = findViewById(R.id.textView6);
-        //ImageView imageView = findViewById(R.id.imageView5);
-        LottieAnimationView lottieAnimationView = findViewById(R.id.imageView6);
+        ImageView imageView = findViewById(R.id.imageView6);
+        //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView6);
         if (textView.getVisibility() == View.GONE){
             textView.setVisibility(View.VISIBLE);
-            //imageView.setImageResource(R.drawable.arrows_up);
-            lottieAnimationView.setSpeed(-1);
+            imageView.setImageResource(R.drawable.arrows_up);
+           /* lottieAnimationView.setSpeed(-1);
             lottieAnimationView.playAnimation();
             // sar = false;
+
+            */
         }else {
             textView.setVisibility(View.GONE);
-            //imageView.setImageResource(R.drawable.arrows_down);
+            imageView.setImageResource(R.drawable.arrows_down);
+            /*
             lottieAnimationView.setSpeed(1);
             lottieAnimationView.playAnimation();
             // sar = true;
+
+             */
         }
     }
-
+/*
     public void m7(View view) {
         TextView textView = findViewById(R.id.textView7);
         //ImageView imageView = findViewById(R.id.imageView5);
@@ -296,6 +301,9 @@ public class Test_Activity extends AppCompatActivity {
             lottieAnimationView.playAnimation();
             // sar = true;
         }
+
     }
+
+ */
 
 }
