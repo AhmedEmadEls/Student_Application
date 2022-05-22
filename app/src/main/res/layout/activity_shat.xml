@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Day_Activity">
+    tools:context=".Day_Activity"
+    android:background="@color/white"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,19 +48,24 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="610dp" />
+        android:layout_height="610dp"
+        android:background="@color/white"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
 
 
         <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:ems="10"
             android:inputType="textPersonName"
+            android:textColorHint="@color/black"
             android:hint="@string/Write_the_message"
             android:layout_weight="5"
             android:layout_margin="3dp"
