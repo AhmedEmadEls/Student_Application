@@ -160,7 +160,6 @@ public class Test_Activity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
 /*
     public void m7(View view) {
         TextView textView = findViewById(R.id.textView7);
