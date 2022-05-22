@@ -47,4 +47,9 @@ public class Main_Activity extends AppCompatActivity {
         Intent intent = new Intent(this,Notification_Activity.class);
         startActivity(intent);
     }
+
+    public void chat(View view) {
+        Intent intent = new Intent(this,Shat_Activity.class);
+        startActivity(intent);
+    }
 }

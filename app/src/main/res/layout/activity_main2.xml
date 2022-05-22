@@ -119,6 +119,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
                     android:scaleType="fitCenter"
+                    android:onClick="chat"
                     android:src="@drawable/bubble_chat_chat_icon" />
 
                 <pl.droidsonroids.gif.GifImageButton
