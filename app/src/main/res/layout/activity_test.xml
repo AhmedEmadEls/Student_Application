@@ -97,7 +97,7 @@
         <Button
             android:id="@+id/button2"
             style="@style/butcom"
-            android:text="a2"
+            android:text="@string/a2"
             android:onClick="m2"
             />
 
@@ -111,7 +111,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:text="TextView"
+        android:text="@string/b2"
         style="@style/qatext"
 
         />
