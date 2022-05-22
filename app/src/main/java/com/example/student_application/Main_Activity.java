@@ -40,4 +40,10 @@ public class Main_Activity extends AppCompatActivity {
         Intent intent = new Intent(this,Test_Activity.class);
         startActivity(intent);
     }
+
+
+    public void not(View view) {
+        Intent intent = new Intent(this,Notification_Activity.class);
+        startActivity(intent);
+    }
 }
