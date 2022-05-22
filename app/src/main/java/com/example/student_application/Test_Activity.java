@@ -13,139 +13,260 @@ import com.airbnb.lottie.LottieAnimationView;
 public class Test_Activity extends AppCompatActivity {
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
+
     }
 
+
+
+
     public void m1(View view) {
-        TextView textView = findViewById(R.id.textView1);
-        ImageView imageView = findViewById(R.id.imageView1);
-        //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView1);
-        if (textView.getVisibility() == View.GONE){
-            textView.setVisibility(View.VISIBLE);
-            imageView.setImageResource(R.drawable.arrows_up);
-            //lottieAnimationView.setSpeed(-1);
-            //lottieAnimationView.playAnimation();
-            // sar = false;
+
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        TextView textView3 = findViewById(R.id.textView3);
+        TextView textView4 = findViewById(R.id.textView4);
+        TextView textView5 = findViewById(R.id.textView5);
+        TextView textView6 = findViewById(R.id.textView6);
+        TextView textView7 = findViewById(R.id.textView7);
+        ImageView imageView1 = findViewById(R.id.imageView1);
+        ImageView imageView2 = findViewById(R.id.imageView2);
+        ImageView imageView3 = findViewById(R.id.imageView3);
+        ImageView imageView4 = findViewById(R.id.imageView4);
+        ImageView imageView5 = findViewById(R.id.imageView5);
+        ImageView imageView6 = findViewById(R.id.imageView6);
+        ImageView imageView7 = findViewById(R.id.imageView7);
+
+        if (textView1.getVisibility() == View.GONE){
+
+            textView1.setVisibility(View.VISIBLE);
+            textView2.setVisibility(View.GONE);
+            textView3.setVisibility(View.GONE);
+            textView4.setVisibility(View.GONE);
+            textView5.setVisibility(View.GONE);
+            textView6.setVisibility(View.GONE);
+            textView7.setVisibility(View.GONE);
+            imageView1.setImageResource(R.drawable.arrows_up);
+            imageView2.setImageResource(R.drawable.arrows_down);
+            imageView3.setImageResource(R.drawable.arrows_down);
+            imageView4.setImageResource(R.drawable.arrows_down);
+            imageView5.setImageResource(R.drawable.arrows_down);
+            imageView6.setImageResource(R.drawable.arrows_down);
+            imageView7.setImageResource(R.drawable.arrows_down);
+
         }else {
-            textView.setVisibility(View.GONE);
-            imageView.setImageResource(R.drawable.arrows_down);
-            //lottieAnimationView.setSpeed(1);
-            //lottieAnimationView.playAnimation();
-           // sar = true;
+
+            textView1.setVisibility(View.GONE);
+            imageView1.setImageResource(R.drawable.arrows_down);
+
         }
     }
+
     public void m2(View view) {
-        TextView textView = findViewById(R.id.textView2);
-        ImageView imageView = findViewById(R.id.imageView2);
-        //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView2);
-        if (textView.getVisibility() == View.GONE){
-            textView.setVisibility(View.VISIBLE);
-            imageView.setImageResource(R.drawable.arrows_up);
-           /* lottieAnimationView.setSpeed(-1);
-            lottieAnimationView.playAnimation();
-            sar = false;
-            */
+
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        TextView textView3 = findViewById(R.id.textView3);
+        TextView textView4 = findViewById(R.id.textView4);
+        TextView textView5 = findViewById(R.id.textView5);
+        TextView textView6 = findViewById(R.id.textView6);
+        TextView textView7 = findViewById(R.id.textView7);
+        ImageView imageView1 = findViewById(R.id.imageView1);
+        ImageView imageView2 = findViewById(R.id.imageView2);
+        ImageView imageView3 = findViewById(R.id.imageView3);
+        ImageView imageView4 = findViewById(R.id.imageView4);
+        ImageView imageView5 = findViewById(R.id.imageView5);
+        ImageView imageView6 = findViewById(R.id.imageView6);
+        ImageView imageView7 = findViewById(R.id.imageView7);
+
+        if (textView2.getVisibility() == View.GONE){
+
+            textView1.setVisibility(View.GONE);
+            textView2.setVisibility(View.VISIBLE);
+            textView3.setVisibility(View.GONE);
+            textView4.setVisibility(View.GONE);
+            textView5.setVisibility(View.GONE);
+            textView6.setVisibility(View.GONE);
+            textView7.setVisibility(View.GONE);
+            imageView1.setImageResource(R.drawable.arrows_down);
+            imageView2.setImageResource(R.drawable.arrows_up);
+            imageView3.setImageResource(R.drawable.arrows_down);
+            imageView4.setImageResource(R.drawable.arrows_down);
+            imageView5.setImageResource(R.drawable.arrows_down);
+            imageView6.setImageResource(R.drawable.arrows_down);
+            imageView7.setImageResource(R.drawable.arrows_down);
         }else {
-            textView.setVisibility(View.GONE);
-            imageView.setImageResource(R.drawable.arrows_down);
-            /*
-               lottieAnimationView.setSpeed(1);
-            lottieAnimationView.playAnimation();
-            */
+            textView2.setVisibility(View.GONE);
+            imageView2.setImageResource(R.drawable.arrows_down);
 
         }
 
     }
 
     public void m3(View view) {
-        TextView textView = findViewById(R.id.textView3);
-        ImageView imageView = findViewById(R.id.imageView3);
-        //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView2);
-        if (textView.getVisibility() == View.GONE){
-            textView.setVisibility(View.VISIBLE);
-            imageView.setImageResource(R.drawable.arrows_up);
-           /* lottieAnimationView.setSpeed(-1);
-            lottieAnimationView.playAnimation();
-            sar = false;
-            */
+
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        TextView textView3 = findViewById(R.id.textView3);
+        TextView textView4 = findViewById(R.id.textView4);
+        TextView textView5 = findViewById(R.id.textView5);
+        TextView textView6 = findViewById(R.id.textView6);
+        TextView textView7 = findViewById(R.id.textView7);
+        ImageView imageView1 = findViewById(R.id.imageView1);
+        ImageView imageView2 = findViewById(R.id.imageView2);
+        ImageView imageView3 = findViewById(R.id.imageView3);
+        ImageView imageView4 = findViewById(R.id.imageView4);
+        ImageView imageView5 = findViewById(R.id.imageView5);
+        ImageView imageView6 = findViewById(R.id.imageView6);
+        ImageView imageView7 = findViewById(R.id.imageView7);
+
+        if (textView3.getVisibility() == View.GONE){
+
+            textView1.setVisibility(View.GONE);
+            textView2.setVisibility(View.GONE);
+            textView3.setVisibility(View.VISIBLE);
+            textView4.setVisibility(View.GONE);
+            textView5.setVisibility(View.GONE);
+            textView6.setVisibility(View.GONE);
+            textView7.setVisibility(View.GONE);
+            imageView1.setImageResource(R.drawable.arrows_down);
+            imageView2.setImageResource(R.drawable.arrows_down);
+            imageView3.setImageResource(R.drawable.arrows_up);
+            imageView4.setImageResource(R.drawable.arrows_down);
+            imageView5.setImageResource(R.drawable.arrows_down);
+            imageView6.setImageResource(R.drawable.arrows_down);
+            imageView7.setImageResource(R.drawable.arrows_down);
+
         }else {
-            textView.setVisibility(View.GONE);
-            imageView.setImageResource(R.drawable.arrows_down);
-            /*
-               lottieAnimationView.setSpeed(1);
-            lottieAnimationView.playAnimation();
-            */
+
+            textView3.setVisibility(View.GONE);
+            imageView3.setImageResource(R.drawable.arrows_down);
 
         }
 
     }
 
     public void m4(View view) {
-        TextView textView = findViewById(R.id.textView4);
-        ImageView imageView = findViewById(R.id.imageView4);
-        //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView2);
-        if (textView.getVisibility() == View.GONE){
-            textView.setVisibility(View.VISIBLE);
-            imageView.setImageResource(R.drawable.arrows_up);
-           /* lottieAnimationView.setSpeed(-1);
-            lottieAnimationView.playAnimation();
-            sar = false;
-            */
-        }else {
-            textView.setVisibility(View.GONE);
-            imageView.setImageResource(R.drawable.arrows_down);
-            /*
-               lottieAnimationView.setSpeed(1);
-            lottieAnimationView.playAnimation();
-            */
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        TextView textView3 = findViewById(R.id.textView3);
+        TextView textView4 = findViewById(R.id.textView4);
+        TextView textView5 = findViewById(R.id.textView5);
+        TextView textView6 = findViewById(R.id.textView6);
+        TextView textView7 = findViewById(R.id.textView7);
+        ImageView imageView1 = findViewById(R.id.imageView1);
+        ImageView imageView2 = findViewById(R.id.imageView2);
+        ImageView imageView3 = findViewById(R.id.imageView3);
+        ImageView imageView4 = findViewById(R.id.imageView4);
+        ImageView imageView5 = findViewById(R.id.imageView5);
+        ImageView imageView6 = findViewById(R.id.imageView6);
+        ImageView imageView7 = findViewById(R.id.imageView7);
 
+        if (textView4.getVisibility() == View.GONE){
+            textView1.setVisibility(View.GONE);
+            textView2.setVisibility(View.GONE);
+            textView3.setVisibility(View.GONE);
+            textView4.setVisibility(View.VISIBLE);
+            textView5.setVisibility(View.GONE);
+            textView6.setVisibility(View.GONE);
+            textView7.setVisibility(View.GONE);
+            imageView1.setImageResource(R.drawable.arrows_down);
+            imageView2.setImageResource(R.drawable.arrows_down);
+            imageView3.setImageResource(R.drawable.arrows_down);
+            imageView4.setImageResource(R.drawable.arrows_up);
+            imageView5.setImageResource(R.drawable.arrows_down);
+            imageView6.setImageResource(R.drawable.arrows_down);
+            imageView7.setImageResource(R.drawable.arrows_down);
+
+        }else {
+
+            textView4.setVisibility(View.GONE);
+            imageView4.setImageResource(R.drawable.arrows_down);
         }
 
     }
 
     public void m5(View view) {
-        TextView textView = findViewById(R.id.textView5);
-        ImageView imageView = findViewById(R.id.imageView5);
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        TextView textView3 = findViewById(R.id.textView3);
+        TextView textView4 = findViewById(R.id.textView4);
+        TextView textView5 = findViewById(R.id.textView5);
+        TextView textView6 = findViewById(R.id.textView6);
+        TextView textView7 = findViewById(R.id.textView7);
+        ImageView imageView1 = findViewById(R.id.imageView1);
+        ImageView imageView2 = findViewById(R.id.imageView2);
+        ImageView imageView3 = findViewById(R.id.imageView3);
+        ImageView imageView4 = findViewById(R.id.imageView4);
+        ImageView imageView5 = findViewById(R.id.imageView5);
+        ImageView imageView6 = findViewById(R.id.imageView6);
+        ImageView imageView7 = findViewById(R.id.imageView7);
         //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView5);
-        if (textView.getVisibility() == View.GONE){
-            textView.setVisibility(View.VISIBLE);
-            imageView.setImageResource(R.drawable.arrows_up);
-            /*
-            //lottieAnimationView.setSpeed(-1);
-           // lottieAnimationView.playAnimation();
-            // sar = false;
+        if (textView5.getVisibility() == View.GONE){
+            textView1.setVisibility(View.GONE);
+            textView2.setVisibility(View.GONE);
+            textView3.setVisibility(View.GONE);
+            textView4.setVisibility(View.GONE);
+            textView5.setVisibility(View.VISIBLE);
+            textView6.setVisibility(View.GONE);
+            textView7.setVisibility(View.GONE);
+            imageView1.setImageResource(R.drawable.arrows_down);
+            imageView2.setImageResource(R.drawable.arrows_down);
+            imageView3.setImageResource(R.drawable.arrows_down);
+            imageView4.setImageResource(R.drawable.arrows_down);
+            imageView5.setImageResource(R.drawable.arrows_up);
+            imageView6.setImageResource(R.drawable.arrows_down);
+            imageView7.setImageResource(R.drawable.arrows_down);
 
-             */
             }else {
-            textView.setVisibility(View.GONE);
-            imageView.setImageResource(R.drawable.arrows_down);
-            /*
-            //lottieAnimationView.setSpeed(1);
-            // lottieAnimationView.playAnimation();
-            // sar = true;
-             */
+
+            textView5.setVisibility(View.GONE);
+            imageView5.setImageResource(R.drawable.arrows_down);
+
         }
     }
 
 
     public void m6(View view) {
-        TextView textView = findViewById(R.id.textView6);
-        ImageView imageView = findViewById(R.id.imageView6);
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        TextView textView3 = findViewById(R.id.textView3);
+        TextView textView4 = findViewById(R.id.textView4);
+        TextView textView5 = findViewById(R.id.textView5);
+        TextView textView6 = findViewById(R.id.textView6);
+        TextView textView7 = findViewById(R.id.textView7);
+        ImageView imageView1 = findViewById(R.id.imageView1);
+        ImageView imageView2 = findViewById(R.id.imageView2);
+        ImageView imageView3 = findViewById(R.id.imageView3);
+        ImageView imageView4 = findViewById(R.id.imageView4);
+        ImageView imageView5 = findViewById(R.id.imageView5);
+        ImageView imageView6 = findViewById(R.id.imageView6);
+        ImageView imageView7 = findViewById(R.id.imageView7);
         //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView6);
-        if (textView.getVisibility() == View.GONE){
-            textView.setVisibility(View.VISIBLE);
-            imageView.setImageResource(R.drawable.arrows_up);
-           /* lottieAnimationView.setSpeed(-1);
-            lottieAnimationView.playAnimation();
-            // sar = false;
+        if (textView6.getVisibility() == View.GONE){
+            textView1.setVisibility(View.GONE);
+            textView2.setVisibility(View.GONE);
+            textView3.setVisibility(View.GONE);
+            textView4.setVisibility(View.GONE);
+            textView5.setVisibility(View.GONE);
+            textView6.setVisibility(View.VISIBLE);
+            textView7.setVisibility(View.GONE);
+            imageView1.setImageResource(R.drawable.arrows_down);
+            imageView2.setImageResource(R.drawable.arrows_down);
+            imageView3.setImageResource(R.drawable.arrows_down);
+            imageView4.setImageResource(R.drawable.arrows_down);
+            imageView5.setImageResource(R.drawable.arrows_down);
+            imageView6.setImageResource(R.drawable.arrows_up);
+            imageView7.setImageResource(R.drawable.arrows_down);
 
-            */
         }else {
-            textView.setVisibility(View.GONE);
-            imageView.setImageResource(R.drawable.arrows_down);
+            textView6.setVisibility(View.GONE);
+            imageView6.setImageResource(R.drawable.arrows_down);
             /*
             lottieAnimationView.setSpeed(1);
             lottieAnimationView.playAnimation();
@@ -160,26 +281,46 @@ public class Test_Activity extends AppCompatActivity {
         startActivity(intent);
     }
 
-/*
+
     public void m7(View view) {
-        TextView textView = findViewById(R.id.textView7);
-        //ImageView imageView = findViewById(R.id.imageView5);
-        LottieAnimationView lottieAnimationView = findViewById(R.id.imageView7);
-        if (textView.getVisibility() == View.GONE){
-            textView.setVisibility(View.VISIBLE);
-            //imageView.setImageResource(R.drawable.arrows_up);
-            lottieAnimationView.setSpeed(-1);
-            lottieAnimationView.playAnimation();
-            // sar = false;
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        TextView textView3 = findViewById(R.id.textView3);
+        TextView textView4 = findViewById(R.id.textView4);
+        TextView textView5 = findViewById(R.id.textView5);
+        TextView textView6 = findViewById(R.id.textView6);
+        TextView textView7 = findViewById(R.id.textView7);
+        ImageView imageView1 = findViewById(R.id.imageView1);
+        ImageView imageView2 = findViewById(R.id.imageView2);
+        ImageView imageView3 = findViewById(R.id.imageView3);
+        ImageView imageView4 = findViewById(R.id.imageView4);
+        ImageView imageView5 = findViewById(R.id.imageView5);
+        ImageView imageView6 = findViewById(R.id.imageView6);
+        ImageView imageView7 = findViewById(R.id.imageView7);
+        //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView7);
+        if (textView7.getVisibility() == View.GONE){
+            textView1.setVisibility(View.GONE);
+            textView2.setVisibility(View.GONE);
+            textView3.setVisibility(View.GONE);
+            textView4.setVisibility(View.GONE);
+            textView5.setVisibility(View.GONE);
+            textView6.setVisibility(View.GONE);
+            textView7.setVisibility(View.VISIBLE);
+            imageView1.setImageResource(R.drawable.arrows_down);
+            imageView2.setImageResource(R.drawable.arrows_down);
+            imageView3.setImageResource(R.drawable.arrows_down);
+            imageView4.setImageResource(R.drawable.arrows_down);
+            imageView5.setImageResource(R.drawable.arrows_down);
+            imageView6.setImageResource(R.drawable.arrows_down);
+            imageView7.setImageResource(R.drawable.arrows_up);
+
         }else {
-            textView.setVisibility(View.GONE);
-            //imageView.setImageResource(R.drawable.arrows_down);
-            lottieAnimationView.setSpeed(1);
-            lottieAnimationView.playAnimation();
-            // sar = true;
+            textView7.setVisibility(View.GONE);
+            imageView7.setImageResource(R.drawable.arrows_down);
+
         }
     }
-
+/*
     public void m8(View view) {
         TextView textView = findViewById(R.id.textView8);
         //ImageView imageView = findViewById(R.id.imageView5);
