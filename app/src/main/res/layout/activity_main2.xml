@@ -64,6 +64,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/custom_btnmen"
                     android:onClick="button"
+
                     android:scaleType="centerCrop"
                     android:src="@drawable/animation_1_4" />
 

@@ -23,7 +23,8 @@ public class Main_Activity extends AppCompatActivity {
     }
 
     public void button(View view) {
-
+        Intent  intent = new Intent(this,Day_Activity.class);
+        startActivity(intent);
     }
 
     public void sinout(View view) {
