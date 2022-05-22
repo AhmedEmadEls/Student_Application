@@ -2,6 +2,7 @@ package com.example.student_application;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -125,7 +126,6 @@ public class Test_Activity extends AppCompatActivity {
             //lottieAnimationView.setSpeed(1);
             // lottieAnimationView.playAnimation();
             // sar = true;
-
              */
         }
     }
@@ -154,6 +154,13 @@ public class Test_Activity extends AppCompatActivity {
              */
         }
     }
+
+    public void bacq(View view) {
+        Intent intent = new Intent(this,Main_Activity.class);
+        startActivity(intent);
+    }
+
+
 /*
     public void m7(View view) {
         TextView textView = findViewById(R.id.textView7);

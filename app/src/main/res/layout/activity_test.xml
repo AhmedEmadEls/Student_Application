@@ -26,6 +26,7 @@
             android:src="@drawable/back3"
             android:layout_gravity="center"
             android:layout_marginStart="11dp"
+            android:onClick="bacq"
 
             />
 
@@ -61,21 +62,22 @@
 
         <Button
             android:id="@+id/button1"
-            android:layout_width="wrap_content"
+            android:layout_width="55dp"
             android:layout_height="wrap_content"
             android:layout_weight="9"
-            android:text="Button"
+            android:text="@string/a1"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
             android:onClick="m1"
-
+            android:background="@drawable/custom_btnq"
             />
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:src="@drawable/arrows_down"
-            android:scaleType="fitCenter"
+            style="@style/imgcom"
+            android:background="@color/white"
             android:onClick="m1"
 
             />
@@ -83,7 +85,7 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:text="first anser"
+        android:text="@string/b1"
         style="@style/qatext"
         />
 
@@ -94,21 +96,16 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="9"
-            android:text="Button"
+            style="@style/butcom"
+            android:text="a2"
             android:onClick="m2"
             />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/arrows_down"
-            android:scaleType="fitCenter"
-
+            style="@style/imgcom"
+            android:background="@color/white"
+            android:onClick="m2"
             />
     </LinearLayout>
 
@@ -126,27 +123,22 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="9"
-            android:text="Button"
+            style="@style/butcom"
+            android:text="a3"
             android:onClick="m3"
             />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/arrows_down"
-            android:scaleType="fitCenter"
-            android:layout_gravity="center"
+            style="@style/imgcom"
+            android:background="@color/white"
+            android:onClick="m3"
             />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView3"
-        android:text="TextView"
+        android:text="b3"
         style="@style/qatext"
 
 
@@ -159,23 +151,15 @@
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="9"
-            android:text="Button"
+            style="@style/butcom"
+            android:text="a4"
             android:onClick="m4"
             />
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/arrows_down"
-            android:scaleType="fitCenter"
-            android:background="@color/null2"
+            style="@style/imgcom"
+            android:onClick="m4"
             />
     </LinearLayout>
 
@@ -191,22 +175,15 @@
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="9"
-            android:text="Button"
+            style="@style/butcom"
+            android:text="a5"
             android:onClick="m5"
             />
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/arrows_down"
-            android:scaleType="fitCenter"
-            android:background="@color/null2"
+            style="@style/imgcom"
+            android:onClick="m5"
             />
     </LinearLayout>
 
@@ -223,22 +200,15 @@
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="9"
-            android:text="Button"
+            style="@style/butcom"
+            android:text="a6"
             android:onClick="m6"
             />
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/arrows_down"
-            android:scaleType="fitCenter"
-            android:background="@color/null2"
+            style="@style/imgcom"
+            android:onClick="m6"
             />
     </LinearLayout>
 
