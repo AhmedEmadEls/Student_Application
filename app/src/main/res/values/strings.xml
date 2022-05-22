@@ -46,10 +46,10 @@
     <string name="b1">Yes, it is possible to transfer to another group, but with conditions</string>
     <string name="a2">What are the conditions for transferring from one group to another?</string>
     <string name="b2">That there are empty places in the group you want, and this is done through the guidance office</string>
-    <string name="a3">What does the letter (m) in the table mean or symbolize?</string>
-    <string name="b3">The letter (i) in the table stands for inserted</string>
-    <string name="a4">What do two letters (La) in the table mean or symbolize?</string>
-    <string name="b4">The two letters (La) in the table symbolize the laboratory</string>
+    <string name="a3">What does the letter (م) in the table mean or symbolize?</string>
+    <string name="b3">The letter (م) in the table stands for inserted</string>
+    <string name="a4">What do two letters (مع) in the table mean or symbolize?</string>
+    <string name="b4">The two letters (مع) in the table symbolize the laboratory</string>
     <string name="a5">Where is Lecture Hall 5 located?</string>
     <string name="b5">It is located in (Building C)</string>
     <string name="a6">Where is Lecture Hall 6 located?</string>
