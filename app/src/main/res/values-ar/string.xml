@@ -46,6 +46,15 @@
     <string name="a1">هل يمكن التحويل إلى مجموعة أخري؟</string>
     <string name="b1">نعم يمكن التحويل إلى مجموعة أخري ولكن بشروط</string>
     <string name="a2">ماهي شروط التحويل من مجموعة الي مجموعة اخري</string>
-    <string name="b2">ان يوجداماكن فارغة في المجموعةالتي تريدها ويتم هذا من خلال مكتب الارشاد</string>
-
+    <string name="b2">ان يوجداماكن فارغة في المجموعةالتي تريدهاويتم هذا من خلال مكتب الارشاد</string>
+    <string name="a3">ماذا يعني او يرمز حرف(م)في الجدول؟</string>
+    <string name="b3">يرمز حرف(م)في الجدول الي مدرج</string>
+    <string name="a4">ماذا يعني او يرمز الحرفان (مع)في الجدول؟</string>
+    <string name="b4">يرمزان الحرفان(مع)في الجدول الي معمل</string>
+    <string name="a5">اين يقع(مدرج5)</string>
+    <string name="b5">يقع في(مبنيc)</string>
+    <string name="a6">اين يقع(مدرج6)</string>
+    <string name="b6">يقع في(مبنيc)</string>
+    <string name="a7">اين يقع(مدرج7)</string>
+    <string name="b7">يقع في(مبنيc)</string>
 </resources>
