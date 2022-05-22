@@ -23,7 +23,8 @@ public class Main_Activity extends AppCompatActivity {
     }
 
     public void button(View view) {
-
+        Intent  intent = new Intent(this,Day_Activity.class);
+        startActivity(intent);
     }
 
     public void sinout(View view) {
@@ -38,6 +39,12 @@ public class Main_Activity extends AppCompatActivity {
 
     public void qanda(View view) {
         Intent intent = new Intent(this,Test_Activity.class);
+        startActivity(intent);
+    }
+
+
+    public void not(View view) {
+        Intent intent = new Intent(this,Notification_Activity.class);
         startActivity(intent);
     }
 }
