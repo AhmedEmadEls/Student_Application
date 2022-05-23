@@ -55,4 +55,8 @@
     <string name="b6">It is located in (Building C)</string>
     <string name="a7">Where is Lecture Hall 7 located?</string>
     <string name="b7">It is located in (Building C)</string>
+    <string name="simbel">Simbel</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="select_language">Select Language</string>
 </resources>

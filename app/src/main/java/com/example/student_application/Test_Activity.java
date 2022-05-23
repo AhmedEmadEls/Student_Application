@@ -22,25 +22,25 @@ public class Test_Activity extends AppCompatActivity {
 
     }
 
-
-
+    TextView textView1 ,textView2 , textView3 , textView4 , textView5, textView6 , textView7  ;
+    ImageView imageView1 , imageView2 , imageView3 , imageView4 , imageView5 , imageView6 , imageView7;
 
     public void m1(View view) {
 
-        TextView textView1 = findViewById(R.id.textView1);
-        TextView textView2 = findViewById(R.id.textView2);
-        TextView textView3 = findViewById(R.id.textView3);
-        TextView textView4 = findViewById(R.id.textView4);
-        TextView textView5 = findViewById(R.id.textView5);
-        TextView textView6 = findViewById(R.id.textView6);
-        TextView textView7 = findViewById(R.id.textView7);
-        ImageView imageView1 = findViewById(R.id.imageView1);
-        ImageView imageView2 = findViewById(R.id.imageView2);
-        ImageView imageView3 = findViewById(R.id.imageView3);
-        ImageView imageView4 = findViewById(R.id.imageView4);
-        ImageView imageView5 = findViewById(R.id.imageView5);
-        ImageView imageView6 = findViewById(R.id.imageView6);
-        ImageView imageView7 = findViewById(R.id.imageView7);
+        textView1 = findViewById(R.id.textView1);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
+        textView5 = findViewById(R.id.textView5);
+        textView6 = findViewById(R.id.textView6);
+        textView7 = findViewById(R.id.textView7);
+        imageView1 = findViewById(R.id.imageView1);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
+        imageView4 = findViewById(R.id.imageView4);
+        imageView5 = findViewById(R.id.imageView5);
+        imageView6 = findViewById(R.id.imageView6);
+        imageView7 = findViewById(R.id.imageView7);
 
         if (textView1.getVisibility() == View.GONE){
 
@@ -69,20 +69,20 @@ public class Test_Activity extends AppCompatActivity {
 
     public void m2(View view) {
 
-        TextView textView1 = findViewById(R.id.textView1);
-        TextView textView2 = findViewById(R.id.textView2);
-        TextView textView3 = findViewById(R.id.textView3);
-        TextView textView4 = findViewById(R.id.textView4);
-        TextView textView5 = findViewById(R.id.textView5);
-        TextView textView6 = findViewById(R.id.textView6);
-        TextView textView7 = findViewById(R.id.textView7);
-        ImageView imageView1 = findViewById(R.id.imageView1);
-        ImageView imageView2 = findViewById(R.id.imageView2);
-        ImageView imageView3 = findViewById(R.id.imageView3);
-        ImageView imageView4 = findViewById(R.id.imageView4);
-        ImageView imageView5 = findViewById(R.id.imageView5);
-        ImageView imageView6 = findViewById(R.id.imageView6);
-        ImageView imageView7 = findViewById(R.id.imageView7);
+        textView1 = findViewById(R.id.textView1);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
+        textView5 = findViewById(R.id.textView5);
+        textView6 = findViewById(R.id.textView6);
+        textView7 = findViewById(R.id.textView7);
+        imageView1 = findViewById(R.id.imageView1);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
+        imageView4 = findViewById(R.id.imageView4);
+        imageView5 = findViewById(R.id.imageView5);
+        imageView6 = findViewById(R.id.imageView6);
+        imageView7 = findViewById(R.id.imageView7);
 
         if (textView2.getVisibility() == View.GONE){
 
@@ -110,20 +110,20 @@ public class Test_Activity extends AppCompatActivity {
 
     public void m3(View view) {
 
-        TextView textView1 = findViewById(R.id.textView1);
-        TextView textView2 = findViewById(R.id.textView2);
-        TextView textView3 = findViewById(R.id.textView3);
-        TextView textView4 = findViewById(R.id.textView4);
-        TextView textView5 = findViewById(R.id.textView5);
-        TextView textView6 = findViewById(R.id.textView6);
-        TextView textView7 = findViewById(R.id.textView7);
-        ImageView imageView1 = findViewById(R.id.imageView1);
-        ImageView imageView2 = findViewById(R.id.imageView2);
-        ImageView imageView3 = findViewById(R.id.imageView3);
-        ImageView imageView4 = findViewById(R.id.imageView4);
-        ImageView imageView5 = findViewById(R.id.imageView5);
-        ImageView imageView6 = findViewById(R.id.imageView6);
-        ImageView imageView7 = findViewById(R.id.imageView7);
+        textView1 = findViewById(R.id.textView1);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
+        textView5 = findViewById(R.id.textView5);
+        textView6 = findViewById(R.id.textView6);
+        textView7 = findViewById(R.id.textView7);
+        imageView1 = findViewById(R.id.imageView1);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
+        imageView4 = findViewById(R.id.imageView4);
+        imageView5 = findViewById(R.id.imageView5);
+        imageView6 = findViewById(R.id.imageView6);
+        imageView7 = findViewById(R.id.imageView7);
 
         if (textView3.getVisibility() == View.GONE){
 
@@ -152,20 +152,20 @@ public class Test_Activity extends AppCompatActivity {
     }
 
     public void m4(View view) {
-        TextView textView1 = findViewById(R.id.textView1);
-        TextView textView2 = findViewById(R.id.textView2);
-        TextView textView3 = findViewById(R.id.textView3);
-        TextView textView4 = findViewById(R.id.textView4);
-        TextView textView5 = findViewById(R.id.textView5);
-        TextView textView6 = findViewById(R.id.textView6);
-        TextView textView7 = findViewById(R.id.textView7);
-        ImageView imageView1 = findViewById(R.id.imageView1);
-        ImageView imageView2 = findViewById(R.id.imageView2);
-        ImageView imageView3 = findViewById(R.id.imageView3);
-        ImageView imageView4 = findViewById(R.id.imageView4);
-        ImageView imageView5 = findViewById(R.id.imageView5);
-        ImageView imageView6 = findViewById(R.id.imageView6);
-        ImageView imageView7 = findViewById(R.id.imageView7);
+        textView1 = findViewById(R.id.textView1);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
+        textView5 = findViewById(R.id.textView5);
+        textView6 = findViewById(R.id.textView6);
+        textView7 = findViewById(R.id.textView7);
+        imageView1 = findViewById(R.id.imageView1);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
+        imageView4 = findViewById(R.id.imageView4);
+        imageView5 = findViewById(R.id.imageView5);
+        imageView6 = findViewById(R.id.imageView6);
+        imageView7 = findViewById(R.id.imageView7);
 
         if (textView4.getVisibility() == View.GONE){
             textView1.setVisibility(View.GONE);
@@ -192,20 +192,20 @@ public class Test_Activity extends AppCompatActivity {
     }
 
     public void m5(View view) {
-        TextView textView1 = findViewById(R.id.textView1);
-        TextView textView2 = findViewById(R.id.textView2);
-        TextView textView3 = findViewById(R.id.textView3);
-        TextView textView4 = findViewById(R.id.textView4);
-        TextView textView5 = findViewById(R.id.textView5);
-        TextView textView6 = findViewById(R.id.textView6);
-        TextView textView7 = findViewById(R.id.textView7);
-        ImageView imageView1 = findViewById(R.id.imageView1);
-        ImageView imageView2 = findViewById(R.id.imageView2);
-        ImageView imageView3 = findViewById(R.id.imageView3);
-        ImageView imageView4 = findViewById(R.id.imageView4);
-        ImageView imageView5 = findViewById(R.id.imageView5);
-        ImageView imageView6 = findViewById(R.id.imageView6);
-        ImageView imageView7 = findViewById(R.id.imageView7);
+        textView1 = findViewById(R.id.textView1);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
+        textView5 = findViewById(R.id.textView5);
+        textView6 = findViewById(R.id.textView6);
+        textView7 = findViewById(R.id.textView7);
+        imageView1 = findViewById(R.id.imageView1);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
+        imageView4 = findViewById(R.id.imageView4);
+        imageView5 = findViewById(R.id.imageView5);
+        imageView6 = findViewById(R.id.imageView6);
+        imageView7 = findViewById(R.id.imageView7);
         //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView5);
         if (textView5.getVisibility() == View.GONE){
             textView1.setVisibility(View.GONE);
@@ -233,20 +233,20 @@ public class Test_Activity extends AppCompatActivity {
 
 
     public void m6(View view) {
-        TextView textView1 = findViewById(R.id.textView1);
-        TextView textView2 = findViewById(R.id.textView2);
-        TextView textView3 = findViewById(R.id.textView3);
-        TextView textView4 = findViewById(R.id.textView4);
-        TextView textView5 = findViewById(R.id.textView5);
-        TextView textView6 = findViewById(R.id.textView6);
-        TextView textView7 = findViewById(R.id.textView7);
-        ImageView imageView1 = findViewById(R.id.imageView1);
-        ImageView imageView2 = findViewById(R.id.imageView2);
-        ImageView imageView3 = findViewById(R.id.imageView3);
-        ImageView imageView4 = findViewById(R.id.imageView4);
-        ImageView imageView5 = findViewById(R.id.imageView5);
-        ImageView imageView6 = findViewById(R.id.imageView6);
-        ImageView imageView7 = findViewById(R.id.imageView7);
+        textView1 = findViewById(R.id.textView1);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
+        textView5 = findViewById(R.id.textView5);
+        textView6 = findViewById(R.id.textView6);
+        textView7 = findViewById(R.id.textView7);
+        imageView1 = findViewById(R.id.imageView1);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
+        imageView4 = findViewById(R.id.imageView4);
+        imageView5 = findViewById(R.id.imageView5);
+        imageView6 = findViewById(R.id.imageView6);
+        imageView7 = findViewById(R.id.imageView7);
         //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView6);
         if (textView6.getVisibility() == View.GONE){
             textView1.setVisibility(View.GONE);
@@ -283,20 +283,20 @@ public class Test_Activity extends AppCompatActivity {
 
 
     public void m7(View view) {
-        TextView textView1 = findViewById(R.id.textView1);
-        TextView textView2 = findViewById(R.id.textView2);
-        TextView textView3 = findViewById(R.id.textView3);
-        TextView textView4 = findViewById(R.id.textView4);
-        TextView textView5 = findViewById(R.id.textView5);
-        TextView textView6 = findViewById(R.id.textView6);
-        TextView textView7 = findViewById(R.id.textView7);
-        ImageView imageView1 = findViewById(R.id.imageView1);
-        ImageView imageView2 = findViewById(R.id.imageView2);
-        ImageView imageView3 = findViewById(R.id.imageView3);
-        ImageView imageView4 = findViewById(R.id.imageView4);
-        ImageView imageView5 = findViewById(R.id.imageView5);
-        ImageView imageView6 = findViewById(R.id.imageView6);
-        ImageView imageView7 = findViewById(R.id.imageView7);
+        textView1 = findViewById(R.id.textView1);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
+        textView5 = findViewById(R.id.textView5);
+        textView6 = findViewById(R.id.textView6);
+        textView7 = findViewById(R.id.textView7);
+        imageView1 = findViewById(R.id.imageView1);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
+        imageView4 = findViewById(R.id.imageView4);
+        imageView5 = findViewById(R.id.imageView5);
+        imageView6 = findViewById(R.id.imageView6);
+        imageView7 = findViewById(R.id.imageView7);
         //LottieAnimationView lottieAnimationView = findViewById(R.id.imageView7);
         if (textView7.getVisibility() == View.GONE){
             textView1.setVisibility(View.GONE);
