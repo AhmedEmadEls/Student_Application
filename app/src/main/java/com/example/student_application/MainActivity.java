@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 import pl.droidsonroids.gif.GifImageButton;
 import pl.droidsonroids.gif.GifImageView;
 
@@ -53,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             button.setText(R.string.next);
             aa++;
         }else {
-            Intent intent = new Intent(this,Main_Activity.class);
+            Intent intent = new Intent(MainActivity.this,Sin_in_Activity.class);
             startActivity(intent);
         }
     }

@@ -3,10 +3,11 @@ package com.example.student_application;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.Animatable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
 import android.widget.TextView;
-
 public class Main_Activity extends AppCompatActivity {
 
     @Override
@@ -25,6 +26,7 @@ public class Main_Activity extends AppCompatActivity {
     public void button(View view) {
         Intent  intent = new Intent(this,Day_Activity.class);
         startActivity(intent);
+        
     }
 
     public void sinout(View view) {
