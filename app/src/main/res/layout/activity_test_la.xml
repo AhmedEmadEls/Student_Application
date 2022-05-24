@@ -9,49 +9,6 @@
     android:padding="16dp"
     tools:context=".Test_la_Activity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_select"
-        android:text="@string/select_language"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/rg_Language">
-
-        <RadioButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/english"
-            android:id="@+id/rb_English"
-            android:padding="8dp"
-            android:checked="true"/>
-
-
-        <RadioButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/arabic"
-            android:id="@+id/rb_Arabic"
-            android:padding="8dp"
-            />
-
-
-    </RadioGroup>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/tv_output"
-        android:text="@string/simbel"
-        android:textSize="18sp"
-        android:layout_marginTop="16dp"/>
 
 
 

@@ -11,8 +11,8 @@
     <string name="next2_De">
         Communicate with your colleagues in the same group and share files related to study materials
     </string>
-    <string name="usarname">USARNAME:</string>
-    <string name="password">PassWord:</string>
+    <string name="usarname">UsarName</string>
+    <string name="password">PassWord</string>
     <string name="sinup">SINUP</string>
     <string name="schedules">schedules</string>
     <string name="Section_table">Section table</string>
@@ -55,8 +55,7 @@
     <string name="b6">It is located in (Building C)</string>
     <string name="a7">Where is Lecture Hall 7 located?</string>
     <string name="b7">It is located in (Building C)</string>
-    <string name="simbel">Simbel</string>
-    <string name="arabic">Arabic</string>
-    <string name="english">English</string>
-    <string name="select_language">Select Language</string>
+
+
+
 </resources>

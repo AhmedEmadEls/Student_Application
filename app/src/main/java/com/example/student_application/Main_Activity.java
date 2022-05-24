@@ -22,9 +22,12 @@ public class Main_Activity extends AppCompatActivity {
         textView3.setText("1801022");
 
     }
+    int i ;
 
     public void button(View view) {
         Intent  intent = new Intent(this,Day_Activity.class);
+        i = 0;
+        intent.putExtra("posi",i);
         startActivity(intent);
         
     }
@@ -52,6 +55,13 @@ public class Main_Activity extends AppCompatActivity {
 
     public void chat(View view) {
         Intent intent = new Intent(this,Shat_Activity.class);
+        startActivity(intent);
+    }
+
+    public void secshin(View view) {
+        Intent intent = new Intent(this,Day_Activity.class);
+        i = 1;
+        intent.putExtra("posi",i);
         startActivity(intent);
     }
 }
