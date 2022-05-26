@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Student_Application">
         <activity
+            android:name=".NoteActivity"
+            android:exported="false" />
+        <activity
             android:name=".Test_la_Activity"
             android:exported="false" />
         <activity
