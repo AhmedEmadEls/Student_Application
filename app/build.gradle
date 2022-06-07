@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
 }
+apply plugin: 'kotlin-android'
 
 android {
     compileSdk 31
@@ -41,9 +42,8 @@ dependencies {
     implementation 'com.airbnb.android:lottie:3.4.0'
 
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
-
-
-
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
 
 }

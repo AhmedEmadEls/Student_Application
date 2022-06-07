@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     ImageView gif ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         View.OnClickListener onClickListener = new View.OnClickListener() {
