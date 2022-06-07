@@ -6,12 +6,15 @@ import android.content.Intent;
 import android.graphics.drawable.Animatable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.widget.TextView;
 public class Main_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         TextView textView1 = findViewById(R.id.textView1);
@@ -20,7 +23,6 @@ public class Main_Activity extends AppCompatActivity {
         textView2.setText("رابعة نظم ");
         TextView textView3 = findViewById(R.id.textView3);
         textView3.setText("1801022");
-
     }
     int i ;
 
@@ -29,7 +31,6 @@ public class Main_Activity extends AppCompatActivity {
         i = 0;
         intent.putExtra("posi",i);
         startActivity(intent);
-        
     }
 
     public void sinout(View view) {
