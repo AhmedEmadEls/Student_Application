@@ -239,9 +239,159 @@
 
             <TextView
                 android:id="@+id/textView7"
-                android:text="@string/b6"
+                android:text="@string/b7"
                 style="@style/qatext"
                 />
+
+            <LinearLayout
+                style="@style/layout"
+                android:onClick="m8"
+                >
+
+                <Button
+                    android:id="@+id/button8"
+                    style="@style/butcom"
+                    android:text="@string/a8"
+                    android:onClick="m8"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    style="@style/imgcom"
+                    android:onClick="m8"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:text="@string/b8"
+                style="@style/qatext"
+                />
+
+            <LinearLayout
+                style="@style/layout"
+                android:onClick="m9"
+                >
+
+                <Button
+                    android:id="@+id/button9"
+                    style="@style/butcom"
+                    android:text="@string/a9"
+                    android:onClick="m9"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    style="@style/imgcom"
+                    android:onClick="m9"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:text="@string/b10"
+                style="@style/qatext"
+                />
+            <LinearLayout
+                style="@style/layout"
+                android:onClick="m10"
+                >
+
+                <Button
+                    android:id="@+id/button8"
+                    style="@style/butcom"
+                    android:text="@string/a10"
+                    android:onClick="m10"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    style="@style/imgcom"
+                    android:onClick="m10"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:text="@string/b10"
+                style="@style/qatext"
+                />
+
+            <LinearLayout
+                style="@style/layout"
+                android:onClick="m11"
+                >
+
+                <Button
+                    android:id="@+id/button11"
+                    style="@style/butcom"
+                    android:text="@string/a11"
+                    android:onClick="m11"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    style="@style/imgcom"
+                    android:onClick="m11"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:text="@string/b11"
+                style="@style/qatext"
+                />
+
+            <LinearLayout
+                style="@style/layout"
+                android:onClick="m12"
+                >
+
+                <Button
+                    android:id="@+id/button12"
+                    style="@style/butcom"
+                    android:text="@string/a12"
+                    android:onClick="m12"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    style="@style/imgcom"
+                    android:onClick="m12"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:text="@string/b12"
+                style="@style/qatext"
+                />
+
+            <LinearLayout
+                style="@style/layout"
+                android:onClick="m13"
+                >
+
+                <Button
+                    android:id="@+id/button13"
+                    style="@style/butcom"
+                    android:text="@string/a13"
+                    android:onClick="m13"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    style="@style/imgcom"
+                    android:onClick="m13"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:text="@string/b13"
+                style="@style/qatext"
+                />
+
 
 </LinearLayout>
     </ScrollView>

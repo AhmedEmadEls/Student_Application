@@ -55,18 +55,18 @@
     <string name="b6">It is located in (Building C)</string>
     <string name="a7">Where is Lecture Hall 7 located?</string>
     <string name="b7">It is located in (Building C)</string>
-    <string name="a8">اين يقع(مدرج1)؟</string>
-    <string name="b8">يقع في(المبني الاداري A)</string>
-    <string name="a9">اين يقع(مدرج2)؟</string>
-    <string name="b9">يقع في(المبني الاداري A)</string>
-    <string name="a10">اين يقع(مدرج3)؟</string>
-    <string name="b10">يقع في(المبني الاداري A)</string>
-    <string name="a11">اين يقع(مدرج4)؟</string>
-    <string name="b11">يقع في(المبني الاداري A)</string>
-    <string name="a12">اين تقع المعامل؟</string>
-    <string name="b12">تقع معظم المعامل في (المبني الاداري A)</string>
-    <string name="a13">اين يقع مكتب الارشاد؟</string>
-    <string name="b13">يقع مكتب الارشاد في  (المبني الاداري A)</string>
+    <string name="a8">Where is Lecture Hall 1 located?</string>
+    <string name="b8">It is located in (Administrative Building A)</string>
+    <string name="a9">Where is Lecture Hall 2 located?</string>
+    <string name="b9">It is located in (Administrative Building A)</string>
+    <string name="a10">Where is Lecture Hall 3 located?</string>
+    <string name="b10">It is located in (Administrative Building A)</string>
+    <string name="a11">Where is Lecture Hall 4 located?</string>
+    <string name="b11">It is located in (Administrative Building A)</string>
+    <string name="a12">Where are the laboratories located?</string>
+    <string name="b12">Most of the laboratories are located in (Administrative Building A)</string>
+    <string name="a13">Where is the guidance office located?</string>
+    <string name="b13">It is located in (Administrative Building A)</string>
 
 
 </resources>
