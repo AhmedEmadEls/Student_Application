@@ -2,6 +2,7 @@ package com.example.student_application;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.Animatable;
 import android.os.Bundle;
@@ -22,7 +23,18 @@ public class Main_Activity extends AppCompatActivity {
         textView2.setText("رابعة نظم ");
         TextView textView3 = findViewById(R.id.textView3);
         textView3.setText("1801022");
+
+
     }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
+        android.os.Process.killProcess(android.os.Process.myPid());
+        System.exit(1);
+
+    }
+
     int i ;
 
     public void button(View view) {

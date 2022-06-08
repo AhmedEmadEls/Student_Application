@@ -130,11 +130,5 @@
         <item name="android:scaleType">fitCenter</item>
         <item name="android:background">@color/white</item>
     </style>
-    <style name="ActivityAnim" >
-        <item name="android:activityOpenEnterAnimation">@anim/slid_in</item>
-        <item name="android:activityCloseEnterAnimation">@anim/slid_in</item>
-        <item name="android:activityOpenExitAnimation">@anim/slid_out</item>
-        <item name="android:activityCloseExitAnimation">@anim/slid_out</item>
 
-    </style>
 </resources>
