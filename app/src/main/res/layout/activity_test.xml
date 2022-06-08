@@ -298,7 +298,7 @@
                 >
 
                 <Button
-                    android:id="@+id/button8"
+                    android:id="@+id/button10"
                     style="@style/butcom"
                     android:text="@string/a10"
                     android:onClick="m10"
