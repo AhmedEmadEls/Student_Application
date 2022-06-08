@@ -94,38 +94,42 @@
                 android:background="@color/white"
                 >
 
-                <ImageView
-                    android:id="@+id/imageView9"
+                <ImageButton
+                    android:id="@+id/imageView1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_marginStart="4dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/null2"
                     android:src="@drawable/ic_launcher_foreground"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <ImageView
-                    android:id="@+id/imageView8"
+                <ImageButton
+                    android:id="@+id/imageView2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/null2"
                     android:src="@drawable/ic_action_name_send"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <EditText
-                    android:background="@drawable/custom_btnchat"
                     android:id="@+id/editTextTextPersonName"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/custom_btnchat"
                     android:ems="10"
+                    android:hint="@string/Write_the_message"
+                    android:inputType="textPersonName"
                     android:textColor="@color/black"
                     android:textColorHint="@color/hint"
-                    android:inputType="textPersonName"
-                    android:hint="@string/Write_the_message"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView8"
-                    app:layout_constraintStart_toEndOf="@+id/imageView9"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                    app:layout_constraintStart_toEndOf="@+id/imageView1"
                     app:layout_constraintTop_toTopOf="parent" />
 
 

@@ -86,7 +86,7 @@ public class Room_Chat_Activity1 extends AppCompatActivity {
 
     private void updateUI(FirebaseUser user) {
         dialog.dismiss();
-        startActivity(new Intent(this,Room_Chat_Activity2.class));
+        startActivity(new Intent(this,Shat_Activity.class));
         finish();
     }
 }
