@@ -67,6 +67,7 @@
     <string name="b12">Most of the laboratories are located in (Administrative Building A)</string>
     <string name="a13">Where is the guidance office located?</string>
     <string name="b13">It is located in (Administrative Building A)</string>
+    <string name="default_web_client_id" />
 
 
 </resources>

@@ -28,6 +28,8 @@
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_not.xml" value="0.2056159420289855" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_note.xml" value="0.259375" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_notification.xml" value="0.1" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_room_chat1.xml" value="0.1" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_room_chat2.xml" value="0.15625" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_secand.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_servise.xml" value="0.176" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_shat.xml" value="0.264" />
@@ -49,5 +51,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
