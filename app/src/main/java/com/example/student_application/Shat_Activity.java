@@ -12,8 +12,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Shat_Activity extends AppCompatActivity {
 
-
-
     @Override
     protected void onStart() {
         super.onStart();
