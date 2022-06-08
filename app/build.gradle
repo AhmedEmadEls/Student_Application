@@ -49,6 +49,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth'
 
 
+    //add option
+    implementation 'com.github.captain-miao:optroundcardview:1.0.0'
+
 
 
     //gif
