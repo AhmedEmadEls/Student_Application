@@ -26,7 +26,7 @@ import java.util.Date;
 import java.util.HashMap;
 
 public class Shat_Activity extends AppCompatActivity {
-
+    EditText chat_box;
     @Override
     protected void onStart() {
         super.onStart();
@@ -41,16 +41,18 @@ public class Shat_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shat);
+
+
         chat_box = findViewById(R.id.Messea);
 
     }
 
-    public void ba(View view) {
+    public void back (View view) {
         Intent intent = new Intent(this,Main_Activity.class);
         startActivity(intent);
     }
 
-    EditText chat_box;
+
 
     public void addMessage(View view) {
         chat_box = findViewById(R.id.Messea);
@@ -78,15 +80,15 @@ public class Shat_Activity extends AppCompatActivity {
                 user_image_url = photoPath.replace(originalUrl,resizeImageUrl);
             }
 
-            HashMap<String,Object> massagrObj = new HashMap<>();
-            massagrObj.put("message",message);
-            massagrObj.put("user_name",user.getDisplayName());
-            massagrObj.put("timestamp", FieldValue.serverTimestamp());
-            massagrObj.put("messageID",messageTD);
-            massagrObj.put("user_image_url",user_image_url);
-            massagrObj.put("name",name);
+            HashMap<String,Object> massageObj = new HashMap<>();
+            massageObj.put("message",message);
+            massageObj.put("user_name",user.getDisplayName());
+            massageObj.put("timestamp", FieldValue.serverTimestamp());
+            massageObj.put("messageID",messageTD);
+            massageObj.put("user_image_url",user_image_url);
+            massageObj.put("name",name);
 
-            MAIN_CHAT_DATABASE.document(messageTD).set(massagrObj).addOnCompleteListener(new OnCompleteListener<Void>() {
+            MAIN_CHAT_DATABASE.document(messageTD).set(massageObj).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if (task.isSuccessful()){

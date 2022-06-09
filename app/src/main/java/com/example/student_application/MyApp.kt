@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.WindowManager
 
 class MyApp : Application() {
-
+/*
     override fun onCreate() {
         super.onCreate()
         registerListener()
@@ -43,4 +43,6 @@ class MyApp : Application() {
 
         })
     }
+
+ */
 }
