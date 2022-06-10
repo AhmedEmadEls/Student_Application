@@ -29,7 +29,7 @@
             android:layout_height="match_parent">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/circleImageView"
+                android:id="@+id/user_image"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@mipmap/ic_launcher"
@@ -40,16 +40,16 @@
                 />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/textViewName"
                 android:layout_width="0dp"
                 android:text="dumy name"
                 android:layout_height="wrap_content"
-                app:layout_constraintBottom_toTopOf="@+id/textView15"
-                app:layout_constraintEnd_toStartOf="@+id/circleImageView"
+                app:layout_constraintBottom_toTopOf="@+id/textViewMessege"
+                app:layout_constraintEnd_toStartOf="@+id/user_image"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/textViewMessege"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="this is a dummy text message"
@@ -57,7 +57,7 @@
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/circleImageView"
+                app:layout_constraintEnd_toStartOf="@+id/user_image"
                 app:layout_constraintStart_toStartOf="parent" />
 
 
