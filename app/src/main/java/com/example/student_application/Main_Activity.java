@@ -1,5 +1,7 @@
 package com.example.student_application;
 
+import static com.example.student_application.card.FirebaseCaeds.mAuth;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
@@ -11,7 +13,21 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseUser;
+
 public class Main_Activity extends AppCompatActivity {
+
+    protected void onStart() {
+        super.onStart();
+        Intent puten = getIntent();
+        sin_Chik sin_chik = new sin_Chik();
+        int s =sin_chik.getF();
+        if (s == 0){
+            startActivity(new Intent(this,MainActivity.class));
+            finish();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

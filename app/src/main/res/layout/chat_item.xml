@@ -46,14 +46,16 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toTopOf="@+id/textViewMessege"
                 app:layout_constraintEnd_toStartOf="@+id/user_image"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/hint"
+                />
 
             <TextView
                 android:id="@+id/textViewMessege"
+                android:gravity="center"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="this is a dummy text message"
-                android:textAlignment="textEnd"
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"

@@ -66,4 +66,10 @@
     <string name="b12">تقع معظم المعامل في (المبني الاداري A)</string>
     <string name="a13">اين يقع مكتب الارشاد؟</string>
     <string name="b13">يقع مكتب الارشاد في  (المبني الاداري A)</string>
+
+    <string name="wat">الرجاء الإنتظار حتى يتم إظهار  ( تم الإرسال ) لإرسال الرسالة التالية</string>
+    <string name="message_Send">تم الإرسال</string>
+
+
+
 </resources>

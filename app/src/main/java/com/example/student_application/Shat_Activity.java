@@ -118,7 +118,7 @@ public class Shat_Activity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if (task.isSuccessful()){
-                        Toast.makeText(Shat_Activity.this, "Message Send", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Shat_Activity.this,R.string.message_Send, Toast.LENGTH_SHORT).show();
                         chat_box.setText("");
                     }else {
                         Toast.makeText(Shat_Activity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();

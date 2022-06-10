@@ -29,6 +29,8 @@ public class Sin_in_Activity extends AppCompatActivity {
             public void onClick(View view) {
                 if (usarname.getText().toString().equals("admin")&& password.getText().toString().equals("admin")){
                     Intent intent = new Intent(Sin_in_Activity.this,Main_Activity.class);
+                    sin_Chik sin_chik = new sin_Chik();
+                    sin_chik.setF(1);
                     startActivity(intent);
                 }else{
                     Toast.makeText(Sin_in_Activity.this , "Sin Failed !!!" , Toast.LENGTH_LONG).show();
