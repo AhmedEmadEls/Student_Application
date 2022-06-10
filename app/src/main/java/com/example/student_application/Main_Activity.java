@@ -5,7 +5,9 @@ import static com.example.student_application.card.FirebaseCaeds.mAuth;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.drawable.Animatable;
 import android.os.Bundle;
 import android.view.View;
@@ -20,13 +22,6 @@ public class Main_Activity extends AppCompatActivity {
 
     protected void onStart() {
         super.onStart();
-        Intent puten = getIntent();
-        sin_Chik sin_chik = new sin_Chik();
-        int s =sin_chik.getF();
-        if (s == 0){
-            startActivity(new Intent(this,MainActivity.class));
-            finish();
-        }
     }
 
     @Override
@@ -40,7 +35,6 @@ public class Main_Activity extends AppCompatActivity {
         TextView textView3 = findViewById(R.id.textView3);
         textView3.setText("1801022");
 
-
     }
 
     @Override
@@ -48,7 +42,6 @@ public class Main_Activity extends AppCompatActivity {
         moveTaskToBack(true);
         android.os.Process.killProcess(android.os.Process.myPid());
         System.exit(1);
-
     }
 
     int i ;

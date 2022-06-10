@@ -4,7 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -23,10 +25,20 @@ public class MainActivity extends AppCompatActivity {
     int start = 1 ;
     int wastart ;
 
+    SharedPreferences sharedPref;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        sharedPref = getSharedPreferences("MyUserPrefs" , Context.MODE_PRIVATE);
+        SharedPreferences sp = getApplicationContext().getSharedPreferences("MyUserPrefs" , Context.MODE_PRIVATE);
+        String s =sp.getString("unit","");
+        if (s.equals("true") ){
+            startActivity(new Intent(this,Main_Activity.class));
+            finish();
+        }
 
     }
 
@@ -37,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.imageView);
         TextView textView = findViewById(R.id.textView);
         Button button = findViewById(R.id.button2);
+
         if (aa == 0){
             gif.setImageResource(R.drawable.lern);
             textView.setText(R.string.next1_De);
@@ -53,6 +66,11 @@ public class MainActivity extends AppCompatActivity {
         }else {
             Intent intent = new Intent(MainActivity.this,Sin_in_Activity.class);
             startActivity(intent);
+            SharedPreferences.Editor editor = sharedPref.edit();
+            editor.putString("usarname", "true");
+
+
+
         }
     }
 

@@ -3,13 +3,13 @@ package com.example.student_application;
 
 public class sin_Chik {
 
-    int f ;
+    boolean f ;
 
-    public int getF() {
+    public boolean getF() {
         return f;
     }
 
-    public void setF(int f) {
+    public void setF(boolean f) {
         this.f = f;
     }
 }
