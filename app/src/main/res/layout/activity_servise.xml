@@ -74,5 +74,6 @@
         android:text="@string/Academy_website"
         android:background="@drawable/custom_btnser"
         style="@style/textse"
+        android:onClick="acadimic"
         />
 </LinearLayout>
