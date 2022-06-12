@@ -26,7 +26,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 public class Room_Chat_Activity1 extends AppCompatActivity {
 
     GoogleSignInClient mGoogleSignInClient;
-    int RC_SIGN_IN = 1001;
+    int RC_SIGN_IN = 9001;
     private FirebaseAuth mAuth;
 
     ProgressDialog dialog;
@@ -42,6 +42,11 @@ public class Room_Chat_Activity1 extends AppCompatActivity {
         mGoogleSignInClient = GoogleSignIn.getClient(this,gso);
 
     }
+
+
+
+
+
 
     public void startLogin(View view) {
         dialog.setMessage("Loading...");

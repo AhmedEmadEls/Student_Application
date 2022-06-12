@@ -85,4 +85,9 @@ public class Main_Activity extends AppCompatActivity {
         intent.putExtra("posi",i);
         startActivity(intent);
     }
+
+    public void notavilobol(View view) {
+        Intent intent = new Intent(this,NotActivity.class);
+        startActivity(intent);
+    }
 }

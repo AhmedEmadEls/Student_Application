@@ -36,11 +36,14 @@ public class Shat_Activity extends AppCompatActivity {
     ChatAdapter chatAdapter;
     RecyclerView chat_list;
 
+
+
     @Override
     protected void onStart() {
         super.onStart();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser == null){
+
             startActivity(new Intent(this,Room_Chat_Activity1.class));
             finish();
         }

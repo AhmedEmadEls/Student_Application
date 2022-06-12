@@ -27,6 +27,7 @@
     <string name="Academy_website">موقع الاكاديميه</string>
     <string name="Write_the_message">اكتب الرساله .....</string>
     <string name="notavalabol">غير متاح في الوقت الحالي.....قريبا</string>
+    <string name="note">سجل ملاحظاتك</string>
 
     <string name="day">إختيار اليوم</string>
 
@@ -69,7 +70,6 @@
 
     <string name="wat">الرجاء الإنتظار حتى يتم إظهار  ( تم الإرسال ) لإرسال الرسالة التالية</string>
     <string name="message_Send">تم الإرسال</string>
-
 
 
 </resources>
