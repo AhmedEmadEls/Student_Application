@@ -71,5 +71,7 @@
     <string name="wat">الرجاء الإنتظار حتى يتم إظهار  ( تم الإرسال ) لإرسال الرسالة التالية</string>
     <string name="message_Send">تم الإرسال</string>
 
+    <string name="Map"> الموقع على الخريطة " الوصول " </string>
+
 
 </resources>

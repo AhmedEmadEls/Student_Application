@@ -76,4 +76,14 @@
         style="@style/textse"
         android:onClick="acadimic"
         />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:text="@string/Map"
+        android:background="@drawable/custom_btnser"
+        style="@style/textse"
+        android:onClick="map"
+        />
 </LinearLayout>

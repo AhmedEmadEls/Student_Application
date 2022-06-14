@@ -46,6 +46,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore'
     implementation 'com.firebaseui:firebase-ui-firestore:8.0.1'
     implementation 'com.google.firebase:firebase-auth'
+    //notification
+
+    implementation 'com.google.firebase:firebase-messaging:23.0.5'
 
 
     //add option
@@ -63,6 +66,11 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation "androidx.core:core-ktx:1.8.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+
+    // mab
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+
 
 
 }

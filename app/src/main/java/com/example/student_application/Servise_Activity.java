@@ -36,4 +36,9 @@ public class Servise_Activity extends AppCompatActivity {
         i.setData(Uri.parse(url));
         startActivity(i);
     }
+
+    public void map(View view) {
+        Intent intent = new Intent(this,MapActivity.class);
+        startActivity(intent);
+    }
 }

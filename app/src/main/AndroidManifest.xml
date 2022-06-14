@@ -3,8 +3,12 @@
     package="com.example.student_application">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION;"/>
+
+
     <application
         android:name=".MyApp"
         android:allowBackup="true"
@@ -13,9 +17,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Student_Application">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAiCX9gK_Wq2b-J_Axdg3nqu5gMGAg4-a0"
+        />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
         <activity
             android:name=".Room_Chat_Activity2"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Room_Chat_Activity1"
             android:exported="false" />
@@ -27,7 +38,7 @@
             android:exported="false" />
         <activity
             android:name=".Shat_Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Notification_Activity"
             android:exported="false" />
@@ -43,27 +54,21 @@
         <activity
             android:name=".Servise_Activity"
             android:exported="false" />
-
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Sin_in_Activity"
             android:exported="false" />
-
-
         <activity
             android:name=".Main_Activity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

@@ -70,7 +70,8 @@
     <string name="b13">It is located in (Administrative Building A)</string>
 
 
-
     <string name="wat">Please wait until ( Message Send ) is shown to send the following message</string>
     <string name="message_Send">Message Send</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Map"> Location in map "Access" </string>
 </resources>
