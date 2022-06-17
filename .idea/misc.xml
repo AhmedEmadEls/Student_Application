@@ -14,6 +14,7 @@
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_btnser.xml" value="0.2255" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_edi.xml" value="0.205" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/custom_hed.xml" value="0.2555" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/edit.xml" value="0.113" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/ic_launcher_background.xml" value="0.233" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.126" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout-ar/activity_main2.xml" value="0.136" />
@@ -27,7 +28,9 @@
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_main2.xml" value="0.4" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_map.xml" value="0.2453125" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_not.xml" value="0.2056159420289855" />
-        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_note.xml" value="0.259375" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_note.xml" value="0.136" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_note1.xml" value="0.47815533980582525" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_note2.xml" value="0.4" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_notification.xml" value="0.1" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_room_chat1.xml" value="0.23278985507246377" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_room_chat2.xml" value="0.23278985507246377" />
@@ -37,6 +40,7 @@
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_sin_in.xml" value="0.176" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_test.xml" value="0.2269021739130435" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_test_la.xml" value="0.1" />
+        <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/activity_update_notes.xml" value="0.15172101449275363" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/app_toolbar.xml" value="0.2" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/chat_item.xml" value="0.264" />
         <entry key="..\:/Users/xcx90/AndroidStudioProjects/Student_Application/app/src/main/res/layout/fragment_first_.xml" value="0.19021739130434784" />

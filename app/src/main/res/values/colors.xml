@@ -9,7 +9,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="buttoncol">#2F2E41</color>
     <color name="null2">#00FFFFFF</color>
-    <color name="red">#830B0B</color>
+    <color name="red1">#830B0B</color>
     <color name="hider">#9176ED</color>
     <color name="hint">#32000000</color>
+
+    <color name="yellow">#D9D92F</color>
+    <color name="green">#11D99B</color>
+    <color name="red">#FF5151</color>
 </resources>

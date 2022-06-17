@@ -15,6 +15,10 @@
 
     </style>
 
+    <style name="ProgressBar">
+        <item name="colorSecondary">@color/red</item>
+    </style>
+
 
     <style name="TextView" parent="android:Widget.TextView">
         <item name="android:gravity">center</item>

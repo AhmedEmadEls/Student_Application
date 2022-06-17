@@ -87,7 +87,7 @@ public class Main_Activity extends AppCompatActivity {
     }
 
     public void notavilobol(View view) {
-        Intent intent = new Intent(this,NotActivity.class);
+        Intent intent = new Intent(this,NoteActivity1.class);
         startActivity(intent);
     }
 }
